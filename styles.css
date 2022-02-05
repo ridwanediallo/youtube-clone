@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eee;
+    font-family: sans-serif;
+}
+header{
+    background-color: #fff;
+    padding: 3px 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 40px;
+}
+.icons{
+    display: flex;
+    gap: 40px;
+}
+
+
+#container{
+    display: flex;
+    gap: 20px;
+    max-width: 90%;
+    height: 90vh;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.video-opened{
+}
+.sidebar{
+}
+
+.sug-video{
+}
+.sug{
+    display: flex;
+    gap: 10px;
+}
+iframe{
+    margin-bottom: 10px;
+}
